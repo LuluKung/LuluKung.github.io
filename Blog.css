@@ -3,6 +3,61 @@
 	padding: 0;
 }
 
+
+.menu {
+  background:#202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #FFFFE0;
+  cursor: pointer;
+  font-family: Comic Sans MS;
+  font-size: 38px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i{  
+  margin-right: 5px;
+}
+
 article {
     margin-left: auto;
     margin-right: auto;
@@ -14,7 +69,7 @@ article {
 	background-repeat: repeat-y;
 	display: block;
 	overflow: visible;
-	margin-top: -105px;
+	margin-top: -70px;
 }
 body {
 	background-image: url('http://b380.photo.store.qq.com/psb?/37d89ca2-3851-4f34-9bd4-a736ab53abbf/OSmZXCAGVYdvHq9tE1jkGl8q2H2aBNjJbjsbctNUTH0!/c/dP.PguINAgAA&bo=ywCCAMsAggAFACM!&rf=mood_app');
@@ -142,6 +197,7 @@ a:hover {
 	width: 245px;
 	margin-left: 20px;
 	padding:10px;
+	cursor: pointer;
 }
 
 .latest h2 {
@@ -185,56 +241,11 @@ a:hover {
 	margin-left: 20px;
 }
 
-.menu {
-  background:#202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
-  left: -285px;  
-  height: 100%;
-  position: fixed;
-  width: 285px;
+#scroll {
+    margin-top:800px;
+    position: fixed;
+	margin-left: 1700px;
+	display: none;
 }
 
 
-.menu ul {
-  border-top: 1px solid #636366;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  border-bottom: 1px solid #636366;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-top: 3px;
-}
-
-.menu a {
-  color: #fff;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.icon-close {
-  cursor: pointer;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.icon-menu {
-  color: #fff;
-  cursor: pointer;
-  font-family: Comic Sans MS;
-  font-size: 38px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.icon-menu i{  
-  margin-right: 5px;
-}
