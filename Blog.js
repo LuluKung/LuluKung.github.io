@@ -37,3 +37,22 @@ $(window).scroll(function(){
 	}
 });
 
+$(document).ready(function(){
+	var status = 0;
+	$('.latest img').click(function(){
+	    if(status === 0){
+	    	$(this).animate({
+		        height:'+=15px',
+		        width:'+=15px'
+		    });
+		    status = 1
+		}
+		else{
+			$(this).animate({
+		        height:'-=15px',
+		        width:'-=15px'
+		    });
+		    status = 0
+		};
+	});
+});
