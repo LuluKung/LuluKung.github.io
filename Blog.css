@@ -1,4 +1,4 @@
-﻿* { 
+﻿﻿* { 
 	margin: 0; 
 	padding: 0;
 }
@@ -248,4 +248,18 @@ a:hover {
 	display: none;
 }
 
+.MyBlog {
+	height: 620px;
+	width: 1095px;
+	border: 1px solid rgb(177, 156, 118);
+	margin-left: 20px;
+    background: linear-gradient(rgb(178, 156, 119),rgb(247, 243, 238));
+    margin-top: 20px;
+}
 
+.MyBlog h2 {
+	font-family: Gabriola;
+	font-weight: bold;
+	color: #4F4F4F;
+	margin-left: 20px;
+}
