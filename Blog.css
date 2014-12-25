@@ -255,6 +255,8 @@ a:hover {
 	margin-left: 20px;
     background: linear-gradient(rgb(178, 156, 119),rgb(247, 243, 238));
     margin-top: 20px;
+    overflow: hidden;
+    zoom:1;
 }
 
 .MyBlog h2 {
@@ -262,4 +264,38 @@ a:hover {
 	font-weight: bold;
 	color: #4F4F4F;
 	margin-left: 20px;
+}
+
+.MyBlog ul {
+	margin-top: 5px;
+    display: none;
+}
+
+.MyBlog li {
+    list-style: none;
+    font-family: Gabriola;
+    font-size: 20px;
+    margin-left: -18px;
+    color: #4F4F4F;
+}
+
+.MyBlog a {
+	margin-left: 20px;
+	font-family: Gabriola;
+    font-size: 24px;
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+.slideDown {
+	height: 150px;
+	width: 100px;
+}
+
+.sortBy a {
+	font-family: Gabriola;
+    font-size: 20px;
+    color: #4F4F4F;
+    text-decoration: none;
+    margin-left: -10px;
 }

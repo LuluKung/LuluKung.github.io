@@ -58,11 +58,11 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $('.guide').mouseenter(function(){
-  	$('.guide-menu').slideDown()
+  $('.slideDown').mouseenter(function(){
+  	$('.sortBy').slideDown()
   });
-  $('.guide').mouseleave(function(){
-  	$('.guide-menu').slideUp()
+  $('.slideDown').mouseleave(function(){
+  	$('.sortBy').slideUp()
   });
 
 });
