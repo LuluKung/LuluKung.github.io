@@ -232,7 +232,7 @@
 }
 
 .skills {
-	height: 680px;
+	height: 650px;
 	width: 100%;
 	border-bottom: 4px solid #FFFAFA;
 }
@@ -243,19 +243,19 @@
 	color: #696969;
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 	letter-spacing: 15px;
 }
 
 .skills-img {
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 }
 
 .skills-list li {
 	list-style: none;
 	float: left;
-	margin-right: 300px;
+	margin-right: 250px;
 	font-size: 20px;
 	font-family: 'Raleway',sans-serif;
 	color: #696969;
@@ -265,11 +265,11 @@
 .skills-div {
 	width: 100%;
 	height: 250px;
-	margin-left: 350px;
+	margin-left: 450px;
 }
 
 .service {
-	height: 650px;
+	height: 580px;
 	width: 100%;
 }
 
@@ -313,7 +313,7 @@
 
 .service-div {
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	margin-left: 450px;
 }
 
