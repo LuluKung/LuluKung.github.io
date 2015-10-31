@@ -3,22 +3,22 @@
 	padding: 0;
 }
 
+#carousel-example-generic{
+	max-width: inherit;
+}
+
 .navbar{
 	font-family: 'Raleway', sans-serif;
 	opacity: 0.9;
+	font-weight: bold;
 }
 
 .navbar-brand{
 	font-size: 150%;
-	font-weight: bold;
 }
 
 .navbar-right a:hover{
 	color: #FF6347!important;
-}
-
-#carousel-example-generic{
-	height: 50%;
 }
 
 .background{
