@@ -196,10 +196,17 @@ hr{
 .myPortfolio img{
 	max-width: 100%;
 	max-height: 100%;
+	margin-bottom: 10%;
 }
 
-.myPortfolio-margin{
-	margin-top: 3%;
+.myPortfolio-margin img{
+	
+}
+
+.myPortfolio p{
+	font-size: 150%;
+	font-family: 'Raleway', sans-serif;
+	color: #696969;
 }
 
 h1{
