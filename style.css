@@ -17,48 +17,32 @@
 	color: #FF6347!important;
 }
 
-.background {
-	position: relative;
+#carousel-example-generic{
+	height: 50%;
 }
 
-.background-img li {
-	list-style: none;
-	display: none;
-
-}
-
-.background-img img {
-	max-height:	100%;
-	max-width: 100%;
-}
-
-.background-img {
-	overflow: hidden;
-	zoom:1;
-	padding: 0;
-} 
-
-.background-info {
+.background{
 	position: absolute;
-	top: 30%;
-	left:25%;
 	text-align: center;
+	margin-top: -50%;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 
-.background-info h1 {
+.background h1 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 500%;
+	font-size: 400%;
 	color: #fff;
 }
 
-.background-info h3 {
+.background h3 {
 	font-family: 'Raleway';
-	font-size: 30px;
+	font-size: 150%;
 	color: #fff;
 	padding-bottom: 50px;
 }
 
-.background-info a {
+.background a {
 	text-decoration: none;
 }
 
@@ -102,6 +86,7 @@
 .background-hire:hover {
 	background-color: #FFFFFF;
 	color: #CFCFCF;
+	font-weight: bold;
 }
 
 .myContact {
