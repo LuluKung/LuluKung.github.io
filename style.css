@@ -124,7 +124,7 @@
 	color: #696969;
 }
 
-.myContact i {
+i {
 	color: #696969;
 }
 
@@ -140,12 +140,6 @@ hr{
 	margin-top: 5%;
 }
 
-.myProfile h1 {
-	font-family: 'Raleway', sans-serif;
-	color: #696969;
-	font-size: 300%;
-}
-
 .myProfile p {
 	font-family: 'Raleway',sans-serif;
 	color: #696969;
@@ -159,18 +153,88 @@ hr{
 }
 
 .mySkills img{
-	max-width: 40%;
 	max-height: 40%;
+	max-width: 40%;
 }
 
-.mySkills{
-	text-align: center;
-	font-size: 150%;
+.mySkills p{
+	font-size: 200%;
 	font-family: 'Raleway',sans-serif;
 	color: #696969;
 }
 
-.mySkills h1{
+.myService p {
+	font-family: 'Raleway',sans-serif;
+	font-size: 150%;
+	color: #696969;
+}
+
+.myStatus h1{
 	font-size: 300%;
-	letter-spacing: 15px;
+	font-family: 'Raleway', sans-serif;
+	color: #696969;
+}
+
+.myStatus p {
+	font-family: 'Raleway',sans-serif;
+	font-size: 150%;
+	color: #696969;
+}
+
+.myResume p{
+	font-family: 'Raleway', sans-serif;
+	color: #696969;
+	font-size: 120%;
+}
+
+.myResume h4{
+	margin-top: 0;
+	font-family: 'Raleway', sans-serif;
+	color: #696969;
+}
+
+.myPortfolio img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.myPortfolio-margin{
+	margin-top: 3%;
+}
+
+h1{
+	font-size: 300%;
+	font-family: 'Raleway', sans-serif;
+	color: #696969;
+}
+
+.contact{
+	background-color: #18191a;
+}
+
+.contact li{
+	font-family: 'Raleway', sans-serif;
+	color: #FFF;
+	font-size: 150%;
+}
+
+.contact i{
+	color: #FFF;
+}
+.contact h1{
+	color: #FFF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 300%;
+
+}
+.contact p{
+	color: #FFF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 150%;
+}
+
+.contact button{
+	font-family: 'Raleway', sans-serif;
+	font-size: 150%;
+	color: #696969;
 }
