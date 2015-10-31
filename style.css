@@ -10,11 +10,12 @@
 .navbar{
 	font-family: 'Raleway', sans-serif;
 	opacity: 0.9;
-	font-weight: bold;
+	font-size: 120%;
 }
 
 .navbar-brand{
 	font-size: 150%;
+	font-weight: bold;
 }
 
 .navbar-right a:hover{
@@ -90,7 +91,7 @@
 }
 
 .myContact {
-	padding: 1%;
+	
 }
 
 .myContact {
@@ -98,6 +99,8 @@
 	font-size: 150%;
 	color: #696969;
 	text-align: center;
+	padding: 1%;
+	margin-top: 1%;
 }
 
 #myEmail {
