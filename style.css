@@ -5,6 +5,12 @@
 
 .navbar{
 	font-family: 'Raleway', sans-serif;
+	opacity: 0.9;
+}
+
+.navbar-brand{
+	font-size: 150%;
+	font-weight: bold;
 }
 
 .navbar-right a:hover{
@@ -35,7 +41,7 @@
 .background-info {
 	position: absolute;
 	top: 30%;
-	left: 25%;
+	left:25%;
 	text-align: center;
 }
 
@@ -98,3 +104,73 @@
 	color: #CFCFCF;
 }
 
+.myContact {
+	padding: 1%;
+}
+
+.myContact {
+	font-family: 'Raleway', serif, sans-serif;
+	font-size: 150%;
+	color: #696969;
+	text-align: center;
+}
+
+#myEmail {
+	text-decoration: none;
+	color: #EF4836;
+}
+
+#myEmail:hover {
+	color: #696969;
+}
+
+.myContact i {
+	color: #696969;
+}
+
+hr{
+	background-color: #FFFAFA; 
+	height: 4px; 
+	border:0;
+}
+
+.myProfile img{
+	max-height: 80%;
+	max-width: 80%;
+	margin-top: 5%;
+}
+
+.myProfile h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #696969;
+	font-size: 300%;
+}
+
+.myProfile p {
+	font-family: 'Raleway',sans-serif;
+	color: #696969;
+	font-size: 150%;
+}
+.myProfile h3 {
+	font-family: 'Raleway',sans-serif;
+	color: #696969;
+	margin-top: 0;
+	font-size: 200%;
+}
+
+.mySkills img{
+	max-width: 40%;
+	max-height: 40%;
+}
+
+.mySkills{
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Raleway',sans-serif;
+	color: #696969;
+}
+
+.mySkills h1{
+	font-size: 300%;
+	letter-spacing: 15px;
+}
